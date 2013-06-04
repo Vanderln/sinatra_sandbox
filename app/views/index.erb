@@ -1,0 +1,72 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>Here's Bill and Anna Marie's Sandbox</p>
+
+  <form action="/cool_url" method="get">
+    <input type="text" name="text_input" placeholder="Hello Anna Marie!!" autofocus>
+    <input type="submit" value="DBC ROCKS!!!!!">
+
+
+  </form>
+
+  <form action="/cool_url" method="post">
+    <input type="text" name="text_input2" placeholder="Hello Bill!!" autofocus>
+    <input type="submit" value="DBC ROCKS!!!!!">
+  </form>
+
+<p>&nbsp;</p>
+
+  <form action="/text_box" method="post">
+     <input type="text" name="post[title]">
+     <input type="text" name="post[price]">
+     <textarea name="post[keep_talking]"></textarea>
+    <input type="submit" value="DBC REALLY ROCKS!!!!!">
+  </form>
+  <br>
+  <br>
+  <form action="/check_box" method="post">
+     <input type="checkbox" name="post1[]">
+     <input type="checkbox" name="post2[]">
+     <input type="checkbox" name="post3[]">
+     <input type="checkbox" name="post4[]">
+     <input type="checkbox" name="post5[]">
+     <input type="checkbox" name="post6[]">
+     
+    <input type="submit" value="DBC REALLY ROCKS!!!!!">
+  </form>
+  <br>
+  <br>
+  <form action="/radio" method="post">
+     <input type="radio" name="radio1" value="squirrels">Squirrels<br>
+     <input type="radio" name="radio1" value="foxes">Foxes<br>
+     <p></p>
+     <input type="radio" name="radio2" value="otters">Otters<br>
+     <input type="radio" name="radio2" value="grasshoppers">Grasshoppers
+    <input type="submit" value="DBC REALLY ROCKS!!!!!">
+  </form>
+  <br>
+  <br>
+  <form action="/select" method="post">
+    <select name="mydropdown[]" >
+      <option name="bill" value="post[baseball]">Baseball</option>
+      <option name="billy" value="post[football]">Football</option>
+      <option name="billo" value="post[basketball]">Basketball</option>
+      <option name="billk" value="post[volleyball]">Volleyball</option>
+      <option name="billn" value="post[soccer]">Soccer</option>
+    </select>
+    <br>
+    <input type="submit" value="DBC REALLY ROCKS!!!!!">
+  </form>
+  <br>
+  <br>
+  <br>
+
+  <form action="/cool_url/bill" method="post">
+    <input type="text" name="text_input2" placeholder="Hello Bill!!" autofocus>
+    <input type="submit" value="DBC ROCKS!!!!!">
+  </form>
+
+
+
+
+</div>
